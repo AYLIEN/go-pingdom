@@ -2,12 +2,7 @@
 
 pingdom-go is a Go client library for the Pingdom API.
 
-This currently supports working with basic HTTP (with specific details)
-and ping checks.
-
-**Build Status:** [![Build Status](https://travis-ci.org/russellcardullo/go-pingdom.svg?branch=master)](https://travis-ci.org/russellcardullo/go-pingdom)
-
-**Godoc:** https://godoc.org/github.com/russellcardullo/go-pingdom/pingdom
+This is a fork of https://github.com/russellcardullo/go-pingdom because that repository was not active.
 
 ## Usage ##
 
@@ -38,7 +33,7 @@ When creating or updating Checks you must specify at a minimum the `Name`, `Host
 and `Resolution`.  Other fields are optional but if not set will be given the zero
 values for the underlying type.
 
-More information on Checks from Pingdom: https://www.pingdom.com/features/api/documentation/#ResourceChecks
+More information on Checks from Pingdom: https://www.pingdom.com/resources/api/2.1/#MethodCreate+New+Check
 
 Get a list of all checks:
 
